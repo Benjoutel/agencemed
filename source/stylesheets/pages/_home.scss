@@ -9,8 +9,15 @@
   margin-bottom: 20px;
 }
 
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .content {
   color : white;
+  font-weight: 200;
 }
 
 .diffusion {
@@ -35,20 +42,23 @@
   padding: 10px;
 }
 
+.simple-list {
+  list-style-type:none;
+}
+
 #logo {
-  height: 100px;
 }
 
 #title {
   color : white;
   font-size: 120px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: -40px;
   margin-left: -8px;
 }
 
 #subtitle {
   color : white;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 40px;
 }
