@@ -1,3 +1,15 @@
+.punchline {
+  color: #A361E1;
+  font-weight: 200;
+  border-top: 2px solid #A361E1;
+}
+
+.column {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 .page-wrapper {
   background-color:$black;
   // height : fill-available;
@@ -21,7 +33,7 @@
 }
 
 .diffusion {
-  background-color : #A361E1;
+  background-color : #DD5C5D;
 }
 
 .conception {
@@ -29,7 +41,12 @@
 }
 
 .integration {
-  background-color : #DD5C5D;
+  background-color : #A361E1;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
 }
 
 .title-box{
@@ -44,6 +61,14 @@
 
 .simple-list {
   list-style-type:none;
+}
+
+.footer {
+  padding: 80px 20px 40px 20px;
+}
+
+.footer-item {
+  padding: 20px 0px 5px 0px;
 }
 
 #logo {
