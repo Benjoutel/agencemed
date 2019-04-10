@@ -1,0 +1,279 @@
+//LAYOUT
+.row{
+  margin-bottom: 4rem;
+}
+.vh-60 {
+  height: 60vh;
+}
+.vh-100 {
+  height: 100vh;
+}
+.d-flex{
+  display: flex;
+}
+.align-items-center{
+  align-items: center;
+  margin-top: auto;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-around {
+  justify-content: around;
+}
+.punchline {
+  color: #A361E1;
+  font-weight: 200;
+  border-top: 2px solid #A361E1;
+}
+
+.column {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.page-wrapper {
+  // background-color:$black;
+  // height : fill-available;
+}
+
+.banner {
+  padding : 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content {
+  color : white;
+  font-weight: 200;
+}
+
+.diffusion {
+  background-color : #DD5C5D;
+}
+
+.conception {
+  background-color : #7f8cef;
+}
+
+.integration {
+  background-color : #A361E1;
+}
+
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-box{
+  display: flex;
+  padding: 30px;
+  align-items: bottom;
+}
+
+.title-text {
+  padding: 10px;
+}
+
+.simple-list {
+  list-style-type:none;
+}
+
+.footer {
+  padding: 80px 20px 40px 20px;
+}
+
+.footer-item {
+  padding: 20px 0px 5px 0px;
+}
+
+#logo {
+}
+
+#title {
+  color : white;
+  font-size: 120px;
+  font-weight: 500;
+  margin-bottom: -40px;
+  margin-left: -8px;
+}
+
+#subtitle {
+  color : white;
+  font-weight: 200;
+  font-size: 40px;
+}
+.bg-image {
+  // opacity: 0.5;
+  background-position: 50% 40%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(0.0turn, rgba($primary,1), rgba($primary,0.9), rgba($primary,0.5)), url("../images/surgery.png");
+}
+
+
+
+
+//CARDS
+.feat-card {
+    padding-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-left: solid 1px $light-grey;
+}
+.vignette {
+  border-radius: 50%;
+  border: solid 2px;
+  color: $primary;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+
+
+//SPACING
+.mt-5 {
+  margin-top: 5rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
+.ml-2 {
+  margin-left: 2rem;
+}
+.ml-5 {
+  margin-left: 5rem;
+}
+.mr-5 {
+  margin-right: 5rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-auto {
+  margin: auto;
+}
+.pt-2 {
+  padding-top: 2rem;
+}
+.pt-1 {
+  padding-top: 1rem;
+}
+
+//FONTS
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+h1 {
+  font-weight: 900;
+  font-size: 20rem;
+}
+h2 {
+  font-weight: 900;
+  font-size: 6rem;
+}
+h3 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+h4 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+h5 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.fc-white{
+  color: white;
+}
+.fc-primary{
+  color: $primary;
+}
+.underline-magical-primary{
+    background-image: linear-gradient(120deg, $primary 0%, $primary 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.4em;
+    background-position: 50% 90%;
+    transition: background-size 0.25s ease-in;
+}
+.underline-magical-secondary{
+    background-image: linear-gradient(120deg, $secondary 0%, $secondary 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.4em;
+    background-position: 50% 90%;
+    transition: background-size 0.25s ease-in;
+}
+.underline-magical-warning{
+    background-image: linear-gradient(120deg, $warning 0%, $warning 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.4em;
+    background-position: 50% 90%;
+    transition: background-size 0.25s ease-in;
+}
+
+//FORMS
+input, textarea {
+    // font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    // min-width: 50px;
+    width: 50vw;
+    color: #666260;
+    border: 1px solid #c4beb9;
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+textarea {
+  min-height: 100px;
+}
+
+
+//NAVBAR
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-brand {
+    margin-right: auto;
+}
+.navbar-brand p{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.navbar-nav {
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.navbar-nav .nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: .5rem;
+}
+
+
