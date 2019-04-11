@@ -1,6 +1,5 @@
-A chaque modification du site :
+Avant chaque modification du site :
   - git pull origin master (pull notamment les changements apportés dans le readme)
-  - 
 
 Pour modifier le code, il faut utiliser la branche master.
 Pour déployer:
